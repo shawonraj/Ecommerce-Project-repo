@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Ecommerce Prject </title>
+</head>
+<body>
+
+    
+     <!--navber starts hers-->
+     <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+     <ul class="nav-upper flex-space-around">
+            <li class="nav-list"><a href="indax.html" class="nav-link">Home</a></li>
+            <li class="nav-list"><a href="register.html" class="nav-link">Register</a></li>
+            <li class="nav-list"><a href="login.html" class="nav-link">Login</a></li>
+            <li class="nav-list"><a href="indax.html" class="nav-link">Logout</a></li>
+            <li class="nav-list"><a href="contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-list"><a href="indax.html"class="nav-link"><img class="profile-icon" src="image 4.jpg" alt="image"></a></li>
+        </ul>
+
+          <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+                <a href="indax.html"  class=" nav-brand  nav-link" >Anis Express</a>
+            </li>
+            <li class="nav-list">
+                <a href="indax.html"  class=" nav-brand nav-link" ><span><i class="fa-solid fa-cart-shopping"></i></span> Card 2 Product - $124.40</a>
+            </li>
+          </ul>
+     </nav>
+          <!--navber ends hers-->
+
+          <main>
+            <div class="cart flex-center">
+                <div class="cart-item">
+                    <div class="cart-items-heading card">
+                        <h2>Shopping Cart [2 item]</h2>
+                        <div class="cart-items-action">
+                            <label for="select">
+                                <input type="checkbox" name="select" id="select">Select all items
+                            </label>
+                            <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                            <button class="btn">Shop More</button>
+                        </div>
+                    </div>
+                         
+                    <div class="cart-item cart flex-space-around">
+                        <input type="checkbox" name="" id="">
+                        <img class="cart-item-img" src="headphone-image.jpg" alt="product">
+                        <div class="cart-item-dese">
+                            <h3 class="product-name">Sony V-4 Headphone</h3>
+                            <h4 class="product-price">Price: $225.99</h4>
+                            <p class="cart-item-shopping">Free Shopping</p>
+                        </div>
+                        <div class="cart-item-action">
+                            <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                            <button class="btn"><i class="fas fa-add"></i></button>
+                            <span>3</span>
+                            <button class="btn"><i class="fas fa-minus"></i></button>
+                    </div>
+
+                    <div class="cart-item cart flex-space-around">
+                        <input type="checkbox" name="" id="">
+                        <img class="cart-item-img" src="shos-image.jpg" alt="product">
+                        <div class="cart-item-dese">
+                            <h3 class="product-name">Nike Shoes</h3>
+                            <h4 class="product-price">Price: $115.99</h4>
+                            <p class="cart-item-shopping">Shopping Const $2.50</p>
+                        </div>
+                        <div class="cart-item-action">
+                            <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                            <button class="btn"><i class="fas fa-add"></i></button>
+                            <span>1</span>
+                            <button class="btn"><i class="fas fa-minus"></i></button>
+                    </div>
+                 
+
+                </div>
+                <div class="card-payment">
+                    <div class="cart-payment-summary card">
+                             <h2>Payment Summary</h2>
+                             <div>
+                                <p>Subtotal:</p>
+                                <p>$341.44</p>
+                             </div>
+                             
+                             <div>
+                                <p>Shipping Cost:</p>
+                                <p>$341.44</p>
+                             </div>
+
+                             <div>
+                                <p>Total Cost:</p>
+                                <p>$341.44</p>
+                             </div>
+                            <button class="btn cart-payment-btn">Pay Now</button>
+                        <div class="cart-payment-mathods card ">
+                            <h2 >Payment Methods</h2>
+                        </div>
+                        <i class="fa-brands fa-cc-visa fa-3x"></i>
+                        <i class="fa-brands fa-cc-apple-pay fa-3x"></i>
+                        <i class="fa-brands fa-cc-amex fa-3x"></i>
+                        <i class="fa-brands fa-cc-amazon-pay fa-3x"></i>
+                        <i class="fa-brands fa-cc-paypal fa-3x"></i>
+                                   
+                    </div>
+                </div>
+
+            </div>
+          </main>
+
+
+         <!--footer starts hers-->
+         <footer class="footer flex-space-around">
+            <div class="flex-space-around">
+                <label for="subscribe">Subscride to Newsletter</label>
+                <input type="email" id="subscribe" name="subscribe" class="footer-input" placeholder="Your Email Address">
+                <button class="btn btn-subscribe">subscribe</button>
+            </div>
+            <div>
+                <p>&copy;Copyrigth 2023 Anis Expresss. Allrigths reswved</p>
+            </div>
+         </footer>
+         <!--nfooter ends hers-->
+     
+         <script src="java.js"></script>
+</body>
+</html>
